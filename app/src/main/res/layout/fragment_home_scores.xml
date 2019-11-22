@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/scoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="SCOREBOARD"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score_top1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#333333"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/score_top2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:textColor="#333333"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/score_top3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:textColor="#333333"
+        />
+
+    <TextView
+        android:id="@+id/score_average"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="#EB670F"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Average score: 0"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/score_totalplays"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF3355"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Number of games played: 0"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

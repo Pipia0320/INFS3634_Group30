@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mr Worldwide</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_game">Game</string>
+
+
+</resources>
+
